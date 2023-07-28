@@ -3,11 +3,13 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import json
 import nltk
+from nltk.tokenize import word_tokenize, sent_tokenize
 import numpy as np
 from transformers import AutoTokenizer
 import torch
 from transformers import AutoModelForSeq2SeqLM, DataCollatorForSeq2Seq, Seq2SeqTrainingArguments, Seq2SeqTrainer
 from evaluate import load
+import tensorflow as tf
 
 class KeyphraseGenerationTrainer:
     def __init__(self, model_checkpoint, max_input_length=1024, max_target_length=60):
@@ -22,6 +24,7 @@ class KeyphraseGenerationTrainer:
             self.prefix = "summarize: "
         else:
             self.prefix = ""
+
     @staticmethod
     def load_data(file_path):
         data = ''
@@ -81,7 +84,8 @@ class KeyphraseGenerationTrainer:
             save_total_limit=3,
             num_train_epochs=num_train_epochs,
             predict_with_generate=True,
-            fp16=True,
+            # fp16=True,
+            report_to="tensorboard"
         )
 
         data_collator = DataCollatorForSeq2Seq(self.tokenizer, model=model, label_pad_token_id=-100)
@@ -101,11 +105,16 @@ class KeyphraseGenerationTrainer:
 
         train_results = trainer.train()
 
-
         # Save the trained model and configuration
         if save:
             output_directory = f"../FineTunedModels/{self.model_checkpoint.split('/')[-1]}-T5_keyphrase-3ep"
             trainer.save_model(output_directory)
+            
+        
+        return trainer, train_results
+
+
+        
 
     def compute_metrics(self, eval_pred):
         predictions, labels = eval_pred
@@ -122,20 +131,47 @@ class KeyphraseGenerationTrainer:
         result["gen_len"] = np.mean(prediction_lens)
 
         return {k: round(v, 4) for k, v in result.items()}
+    
 
-    def evaluate(self, trainer, tokenized_test_data, predict_with_generate=True, max_length=50, num_beams=3, early_stopping=True):
-        if(type(tokenized_test_data) == pd.DataFrame):
+
+    # def evaluate(self, trainer, tokenized_test_data, predict_with_generate=True, max_length=50, num_beams=3, early_stopping=True):
+    #     # if(type(tokenized_test_data) == pd.DataFrame):
+    #     if isinstance(tokenized_test_data, pd.DataFrame):
+    #         tokenized_test_data = self.tokenize_data(tokenized_test_data)
+
+    #     predict_results = trainer.predict(tokenized_test_data, max_length=max_length, num_beams=num_beams, early_stopping=early_stopping)
+    #     metrics = predict_results.metrics
+    #     print(metrics)
+
+    #     if predict_with_generate:
+    #         predictions = self.tokenizer.batch_decode(predict_results.predictions, skip_special_tokens=True,
+    #                                                   clean_up_tokenization_spaces=True)
+    #         predictions = [pred.strip() for pred in predictions]
+    #         return predictions
+
+    def evaluate(self, trainer, tokenized_test_data, max_length=50, num_beams=3, early_stopping=True):
+        if isinstance(tokenized_test_data, pd.DataFrame):
             tokenized_test_data = self.tokenize_data(tokenized_test_data)
 
-        predict_results = trainer.predict(tokenized_test_data, max_length=max_length, num_beams=num_beams, early_stopping=early_stopping)
-        metrics = predict_results.metrics
+        predictions = trainer.predict(
+            test_dataset=tokenized_test_data,  # Rename tokenized_test_data to test_dataset
+            max_length=max_length,
+            num_beams=num_beams,
+            early_stopping=early_stopping
+        )
+
+        # predictions = trainer.predict(tokenized_test_data, max_length=max_length, num_beams=num_beams, early_stopping=early_stopping)
+        
+        metrics = predictions.metrics
         print(metrics)
 
-        if predict_with_generate:
-            predictions = self.tokenizer.batch_decode(predict_results.predictions, skip_special_tokens=True,
-                                                      clean_up_tokenization_spaces=True)
-            predictions = [pred.strip() for pred in predictions]
-            return predictions
+        if trainer.args.predict_with_generate:  # Use trainer.args.predict_with_generate
+            decoded_preds = self.tokenizer.batch_decode(
+                predictions.predictions, skip_special_tokens=True, clean_up_tokenization_spaces=True
+            )
+            decoded_preds = [pred.strip() for pred in decoded_preds]
+            return decoded_preds
+    
 
     def generate(self, bug_description, reformed_query, model):
         model_inputs = self.preprocess_function(bug_description, reformed_query)
@@ -146,6 +182,9 @@ class KeyphraseGenerationTrainer:
 
 
 if __name__ == "__main__":
+    import os
+    os.environ["WANDB_DISABLED"] = "true"
+               
     # Load data
     file_path = '../Data/Cleaned_newLine_Data.json'
     data = KeyphraseGenerationTrainer.load_data(file_path)
@@ -160,9 +199,17 @@ if __name__ == "__main__":
 
 
     # Train the model
-    trainer = KeyphraseGenerationTrainer(model_checkpoint="ml6team/keyphrase-generation-t5-small-inspec", max_input_length=1024, max_target_length=60)
-    trainer.train(train_df, valid_df, batch_size=16, num_train_epochs=1, save=True)
+    trainer_class = KeyphraseGenerationTrainer(model_checkpoint="ml6team/keyphrase-generation-t5-small-inspec", max_input_length=1024, max_target_length=60)
+    trainer , train_results = trainer_class.train(train_df, valid_df, batch_size=8, num_train_epochs=10, save=True)
 
     # Evaluate with test data and get predictions
-    predictions = trainer.evaluate(tokenized_test_data=test_df, predict_with_generate=True, max_length=50, num_beams=3, early_stopping=True)
+    # predictions = trainer.evaluate(trainer= tokenized_test_data=test_df, predict_with_generate=True, max_length=50, num_beams=3, early_stopping=True)
+    # predictions = trainer.evaluate(trainer=trainer, tokenized_test_data=test_df, predict_with_generate=True, max_length=50, num_beams=3, early_stopping=True)
+    predictions = trainer_class.evaluate(
+        trainer=trainer,
+        tokenized_test_data=test_df,
+        max_length=50,
+        num_beams=3,
+        early_stopping=True
+    )
     print(predictions[:5])  # Print the first 5 predictions
