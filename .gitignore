@@ -161,7 +161,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 FineTunedModels/
-Models_Fine_Tuned/
+Models_Fine_Tuned/**
 Fine_tuned_model/**
 codet5-small-finetuned-query-codet5/
 Fine_Tuning/keyphrase-generation-t5-small-inspec-T5_keyphrase/
