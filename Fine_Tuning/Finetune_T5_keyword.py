@@ -107,7 +107,7 @@ class KeyphraseGenerationTrainer:
 
         # Save the trained model and configuration
         if save:
-            output_directory = f"../FineTunedModels/{self.model_checkpoint.split('/')[-1]}-T5_keyphrase-3ep"
+            output_directory = f"../Models_Fine_Tuned/{self.model_checkpoint.split('/')[-1]}-T5_keyphrase-3ep"
             trainer.save_model(output_directory)
             
         
