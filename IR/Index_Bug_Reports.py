@@ -17,21 +17,21 @@ for bug_report in tqdm(bug_reports):
     bug_title = bug_report['bug_title']
     bug_description = bug_report['bug_description']
     repo = bug_report['repo']
-    ground_truths = bug_report['ground_truths']
+    ground_truths = bug_report['ground_truth']
 
-    print(bug_id, bug_title, bug_description, repo, ground_truths)
-    break
+    # print(bug_id, bug_title, bug_description, repo, ground_truths)
+    # break
 
 
 
     # index the document
-    # response = indexer.index_data(bug_id, bug_title, bug_description, repo, ground_truths)
-    #
-    # # check the response if it failed
-    # if response['result'] != 'created':
-    #     print(f"Failed to index document with ID: {bug_id}")
-    #     print(response)
-    #     print('--' * 15)
+    response = indexer.index_data(bug_id, bug_title, bug_description, repo, ground_truths)
+
+    # check the response if it failed
+    if response['result'] != 'created':
+        print(f"Failed to index document with ID: {bug_id}")
+        print(response)
+        print('--' * 15)
 
 
 

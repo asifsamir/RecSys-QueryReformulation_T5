@@ -12,19 +12,10 @@ es = Elasticsearch('http://' + host + ':' + str(port),
 mapping = {
     "mappings": {
         "properties": {
-            "bug_id": {
-                "type": "keyword"
-            },
-            "bug_title": {
+            "source_code": {
                 "type": "text"
             },
-            "bug_description": {
-                "type": "text"
-            },
-            "repo": {
-                "type": "keyword"
-            },
-            "ground_truths": {
+            "file_url": {
                 "type": "keyword"
             }
         }
@@ -32,7 +23,7 @@ mapping = {
 }
 
 # Create the index
-index_name = "query_reform"
+index_name = "bug_localization"
 # check if index already exists
 if es.indices.exists(index=index_name):
     # delete index if it already exists
