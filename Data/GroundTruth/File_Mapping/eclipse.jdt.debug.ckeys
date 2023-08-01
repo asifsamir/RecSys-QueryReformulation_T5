@@ -1,0 +1,1532 @@
+1:org.eclipse.jdt.debug.tests/testprograms/BPManagerPerf.java
+2:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/LocalEvaluationEngine.java
+3:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaStackTraceConsoleFactory.java
+4:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenReceivingTypeAction.java
+5:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PostfixPlusPlusOperator.java
+6:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/test/stepping/StepIntoSelectionWithGenerics.java
+7:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaVariableContentProvider.java
+8:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/LiteralTests17.java
+9:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/IntAssignmentOperatorsTests.java
+10:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/DirectorySourceContainerTests.java
+11:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsOperators1.java
+12:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/NoLineNumberAttributesStatusHandler.java
+13:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ObjectReferenceImpl.java
+14:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_664.java
+15:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/ExceptionBreakpointDetailPane.java
+16:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/JavaContendedMonitor.java
+17:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/ChangeMethodSignatureUnitTests.java
+18:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/StepIntoSelectionClass.java
+19:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/ContributedTestTab3.java
+20:org.eclipse.jdt.debug/eval/org/eclipse/jdt/debug/eval/IEvaluationListener.java
+21:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/VMDisconnectEvent.java
+22:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/ArrayInitializationTests.java
+23:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenDeclaringTypeAction.java
+24:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HcrClass7.java
+25:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaThreadGroup.java
+26:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/EntryToggleAction.java
+27:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/EventSet.java
+28:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_517.java
+29:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClass6.java
+30:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ClassNotLoadedException.java
+31:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/heapwalking/InstanceCountActionDelegate.java
+32:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/RemoteJavaApplicationTabGroup.java
+33:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointRenameMethodParticipant.java
+34:org.eclipse.jdt.debug.tests/testprograms/BreakpointListenerTest.java
+35:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/BreakpointListenerManager.java
+36:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ClassTypeTest.java
+37:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/TestLaunchDelegate1.java
+38:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IRuntimeClasspathEntryResolver2.java
+39:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/JREsPreferencePage.java
+40:org.eclipse.jdt.debug/eval/org/eclipse/jdt/debug/eval/EvaluationManager.java
+41:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaObject.java
+42:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/JavaDebugUtils.java
+43:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/VariableDeclarationTests.java
+44:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/ConsoleInputTests.java
+45:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/VMConnectTimeoutStatusHandler.java
+46:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenDialogAction.java
+47:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/CharType.java
+48:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ClassTypeImpl.java
+49:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/detailpane/SimpleDetailPane.java
+50:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/ConfigurationEncodingTests.java
+51:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/AndAssignmentOperator.java
+52:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushString.java
+53:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/StaticVariableTests.java
+54:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIVoidType.java
+55:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/BreakpointsLocationBug344984.java
+56:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/AccessWatchpointRequest.java
+57:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenVariableConcreteTypeAction.java
+58:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/LongValueImpl.java
+59:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/BooleanValue.java
+60:org.eclipse.jdt.debug.tests/testprograms/ArrayTests.java
+61:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/BooleanAssignmentOperatorsTests.java
+62:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/PackageFragmentRootSourceLocation.java
+63:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_315.java
+64:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/VerboseWriter.java
+65:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/InvalidRequestStateException.java
+66:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/BreakpointRequest.java
+67:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIObjectValue.java
+68:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/performance/PerfBreakpointTests.java
+69:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ObjectFilter.java
+70:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/EventQueue.java
+71:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushLong.java
+72:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/EvaluationStackFrameContextStatusHandler.java
+73:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/LaunchConfigurationIJavaProjectRenameParticipant.java
+74:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JavaRemoteApplicationLaunchConfigurationDelegate.java
+75:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JDIDebugUIPreferenceInitializer.java
+76:org.eclipse.jdt.debug.tests/testprograms/OneToTenPrint.java
+77:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/AddClassPrepareBreakpointAction.java
+78:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/RenamePackageUnitTests.java
+79:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/InterfaceTypeTest.java
+80:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaThreadActionFilter.java
+81:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsNumberLiteral.java
+82:org.eclipse.jdt.debug.tests/testprograms/StepResult2.java
+83:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaMethodBreakpoint.java
+84:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaReferenceType.java
+85:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/LaunchingPreferenceInitializer.java
+86:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/EventIteratorImpl.java
+87:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaInterfaceType.java
+88:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_146_1.java
+89:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ExceptionUncaughtToggleAction.java
+90:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/RenamePublicTypeUnitTests.java
+91:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/StandardJavaBreakpointEditor.java
+92:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/SendMessage.java
+93:org.eclipse.jdt.debug.tests/testsource-j2se-1.5/a/b/c/ConditionalsNearGenerics.java
+94:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/PropertyChangeEvent.java
+95:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/SourceDebugExtensionParser.java
+96:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/SuspendOnUncaughtExceptionListener.java
+97:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/DupX1.java
+98:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/MonitorWaitedEventImpl.java
+99:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/variables/TestInstanceRetrieval.java
+100:org.eclipse.jdt.debug.tests/testprograms/HitCountLooper.java
+101:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/FloatValue.java
+102:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/heapwalking/AllReferencesActionDelegate.java
+103:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/StackFrameImpl.java
+104:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/threadgroups/JavaThreadEventHandler.java
+105:org.eclipse.jdt.debug.tests/testprograms/DefPkgReturnType.java
+106:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/LocalVariableTests.java
+107:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaNativeConsoleTracker.java
+108:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ExceptionCaughtToggleAction.java
+109:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/TabGroupWrapperTests.java
+110:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/MethodExitRequestImpl.java
+111:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/OrOperator.java
+112:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/InconsistentDebugInfoException.java
+113:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/IJavaDebugHelpContextIds.java
+114:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/VariableClasspathEntry.java
+115:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIDebugModelMessages.java
+116:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ActionDelegateHelper.java
+117:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/spy/VerbosePacketStream.java
+118:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/contentassist/IJavaDebugContentAssistContext.java
+119:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/Accessor.java
+120:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/TargetPatternBreakpointTests.java
+121:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaSourceLookupTab.java
+122:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/BundleWizardPage1.java
+123:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ClassesByNameTest.java
+124:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/EEDefinitionTests.java
+125:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/LongOperatorsTests.java
+126:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/MemberActionFilter.java
+127:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/RuntimeContext.java
+128:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/ArrayValueTests.java
+129:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/logicalstructures/JDIAllInstancesValue.java
+130:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/WatchpointEventTest.java
+131:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/ILibraryLocationResolver.java
+132:org.eclipse.jdt.debug.tests/testprograms/ArgumentPrinter.java
+133:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/CharValue.java
+134:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIReferenceListEntryVariable.java
+135:org.eclipse.jdt.debug.tests/testprograms/StepFilterFour.java
+136:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/EvaluationMessages.java
+137:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/JavaAppletTabGroup.java
+138:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/SignatureExt.java
+139:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SelectImportsDialog.java
+140:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/BundleWizardPage2.java
+141:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/hcr/ReferenceType.java
+142:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/LibraryContentProvider.java
+143:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/MethodExitEventImpl.java
+144:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/environments/ExecutionEnvironmentAnalyzer.java
+145:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/ZipEntryStorage.java
+146:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/RenameNonPublicTypeUnitTests.java
+147:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaDebugImages.java
+148:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/BreakpointSuspendPolicyToggleAction.java
+149:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/IClasspathViewer.java
+150:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaNativeStackTraceHyperlink.java
+151:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/LineBreakpointTypeChange.java
+152:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/WorkspaceOperationRunner.java
+153:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/JavaProjectHelper.java
+154:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaWordFinder.java
+155:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MovePublicTypeMethodUnitTests.java
+156:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/ExceptionRequestImpl.java
+157:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/JREContainerWizardPage.java
+158:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/DoubleTypeImpl.java
+159:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/ClasspathMessages.java
+160:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/StepResult.java
+161:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaStackFrameMementoProvider.java
+162:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/ThreadDeathEventImpl.java
+163:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/BreakpointListenerTests.java
+164:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/XfixOperator.java
+165:org.eclipse.jdt.debug.tests/testfiles/source/SomeClass.java
+166:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/AbstractDebugPerformanceTest.java
+167:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ManualSuite.java
+168:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsTypeHierarchy2.java
+169:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/PushDownFieldUnitTests.java
+170:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsArrays.java
+171:org.eclipse.jdt.debug.tests/testprograms/TerminateAll_02.java
+172:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/EditLogicalStructureDialog.java
+173:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/RuntimeClasspathEntryLabelProvider.java
+174:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/EvaluationResult.java
+175:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/AbstractVMInstall.java
+176:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/SocketListenConnectorProcess.java
+177:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/presentation/TestIJavaValue.java
+178:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/VMTypePage.java
+179:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIDebugElement.java
+180:org.eclipse.jdt.debug.tests/testprograms/TriggerPoint_01.java
+181:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/RuntimeClasspathEntryListComparator.java
+182:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/PopupDisplayAction.java
+183:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/JREDescriptor.java
+184:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/JREsComboBlock.java
+185:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/Accessible.java
+186:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ContendedMonitorTests.java
+187:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_690.java
+188:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/JavaWaitingThread.java
+189:org.eclipse.jdt.debug.tests/testprograms/StepResult3.java
+190:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IVMInstall.java
+191:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MoveInnerTypeToNewFileUnitTests.java
+192:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/MethodReturnValuesTests.java
+193:org.eclipse.jdt.debug.tests/testprograms/AppletImpl.java
+194:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/ArrayAllocation.java
+195:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/ClassUnloadRequestImpl.java
+196:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/MethodBreakpointTests15.java
+197:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaClassPrepareBreakpoint.java
+198:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/variables/TestLogicalStructures.java
+199:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/threadgroups/JavaThreadGroupContentProvider.java
+200:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/FieldTest.java
+201:org.eclipse.jdt.launching.macosx/macosx/org/eclipse/jdt/internal/launching/macosx/MacOSXVMRunner.java
+202:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/TestTabGroup.java
+203:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_381.java
+204:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/DefaultClasspathEntryEditor.java
+205:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ValueCache.java
+206:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JavaFxLibraryResolver.java
+207:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/QualifiedFieldValueTests.java
+208:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/ToggleClassPrepareBreakpointAction.java
+209:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_592.java
+210:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaVariableEditor.java
+211:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/InternalException.java
+212:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/ParticipantLaunchShortcut.java
+213:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HcrClass6.java
+214:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/ClasspathContainerTests.java
+215:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/LessOperator.java
+216:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushStaticFieldVariable.java
+217:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_203.java
+218:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIPlaceholderValue.java
+219:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/OwningThreadContentProvider.java
+220:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/MethodImpl.java
+221:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenFromClipboardAction.java
+222:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/MonitorContendedEnteredRequest.java
+223:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/BreakpointMethodLocator.java
+224:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsOperators2.java
+225:org.eclipse.jdt.debug.tests/testsource-j2se-1.5/a/b/c/MethodBreakpoints.java
+226:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/generator/TestGenerator.java
+227:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddJarAction.java
+228:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/LocatableEvent.java
+229:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ClassType.java
+230:org.eclipse.jdt.debug.tests/testprograms/LabelTest.java
+231:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/VirtualMachineTest.java
+232:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/ConnectMessages.java
+233:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/TransportImpl.java
+234:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/PrimitiveType.java
+235:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/spy/JdwpPacket.java
+236:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/JavaOwningThread.java
+237:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/ExternalArchiveSourceContainerTests.java
+238:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/CompositeBreakpointEditor.java
+239:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/JavaProjectSourceContainerTests.java
+240:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/hcr/ReenterStepRequest.java
+241:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ForceEarlyReturnTests.java
+242:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/RefClass.java
+243:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/RemoteJavaApplicationTests.java
+244:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ThreadGroupReference.java
+245:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/environments/DefaultAccessRuleParticipant.java
+246:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SnippetOpenOnSelectionAction.java
+247:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushLocalVariable.java
+248:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/ConvertNonPublicAnonymousTypeToNestedUnitTests.java
+249:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MoveInnerTypeMethodUnitTests.java
+250:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/JavaPrimitiveValueEditor.java
+251:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/LongTypeImpl.java
+252:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/PackageFragmentRootSourceContainerTypeDelegate.java
+253:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/MainMethodSearchEngine.java
+254:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/MonitorWaitEventImpl.java
+255:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenDeclaringTypeHierarchyAction.java
+256:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/TypeTest.java
+257:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IVMInstallType.java
+258:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/IJDIEventListener.java
+259:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/PrimitiveValueImpl.java
+260:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HcrClass8.java
+261:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/ConditionalJump.java
+262:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/Location.java
+263:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/JDIDebugOptions.java
+264:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/IOConsoleOutputActionDelegate.java
+265:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ByteTypeImpl.java
+266:org.eclipse.jdt.debug.tests/testprograms/ArgumentCounter.java
+267:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/EvaluationContextManager.java
+268:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/UnaryMinusOperator.java
+269:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/logicalstructures/JavaLogicalStructures.java
+270:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SnippetFileDocumentProvider.java
+271:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/ListeningConnector.java
+272:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointMoveParticipant.java
+273:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ShortTypeImpl.java
+274:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/NoOp.java
+275:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddLibraryAction.java
+276:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/DebugEventWaiter.java
+277:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_32_1.java
+278:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/LongType.java
+279:org.eclipse.jdt.debug.tests/testprograms/LaunchHistoryTest2.java
+280:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/QualifiedStaticFieldValueTests.java
+281:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MoveRefactoringTest.java
+282:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/DefaultClasspathEntryDialog.java
+283:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/LineTrackerTests.java
+284:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/InvalidTypeException.java
+285:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/Bootstrap.java
+286:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/LocalFileStorageEditorInput.java
+287:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/UnsignedRightShiftAssignmentOperator.java
+288:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaPatternBreakpoint.java
+289:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/StratumTests.java
+290:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ShowQualifiedAction.java
+291:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/RemainderOperator.java
+292:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaStackFrameActionFilter.java
+293:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/JREResolution.java
+294:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/ConfigurationResourceMappingTests.java
+295:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointRenamePackageParticipant.java
+296:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/StackFrame.java
+297:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/VMCannotBeModifiedException.java
+298:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/ThreadStartRequest.java
+299:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaAppletLaunchShortcut.java
+300:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaConnectTab.java
+301:org.eclipse.jdt.debug.tests/testprograms/BreakpointsLocation.java
+302:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/EventWaiter.java
+303:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/AbstractRefactoringDebugTest.java
+304:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClass7.java
+305:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/LabelTests.java
+306:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/PacketManager.java
+307:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/EventMessages.java
+308:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/ExceptionBreakpointChange.java
+309:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaBreakpoint.java
+310:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SnippetEditorStorageDocumentProvider.java
+311:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IEvaluationRunnable.java
+312:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MoveNonPublicTypeMethodUnitTests.java
+313:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/propertypages/ExceptionFilterEditor.java
+314:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/hcr/MethodSearchVisitor.java
+315:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/LongValueTest.java
+316:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/MethodBreakpointMethodChange.java
+317:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaVariableLabelProvider.java
+318:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIPrimitiveValue.java
+319:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/StackFrameShowInSourceAdapter.java
+320:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/ThreadDeathRequest.java
+321:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaVariable.java
+322:org.eclipse.jdt.debug.ui/Snippet Support/org/eclipse/jdt/internal/debug/ui/snippeteditor/ScrapbookMain.java
+323:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/VMInformation.java
+324:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/VMDeathRequest.java
+325:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/FormatStackTraceActionDelegate.java
+326:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/ChangeAnonymousTypeMethodSignatureUnitTests.java
+327:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/Jump.java
+328:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/VariableMessages.java
+329:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/TypeComponentTest.java
+330:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ByteValueTest.java
+331:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/ImageDescriptorRegistry.java
+332:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/ArrayInitializerInstruction.java
+333:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIStackFrame.java
+334:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaJRETab.java
+335:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/MethodBreakpointTypeChange.java
+336:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_155.java
+337:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/BreakpointRequestTest.java
+338:org.eclipse.jdt.debug.tests/testprograms/EvalNestedTypeTests.java
+339:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/VirtualMachine.java
+340:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/AbstractToggleBreakpointsTarget.java
+341:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/StaticFieldValueTests2.java
+342:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/WatchpointTypeChange.java
+343:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/RuntimeClasspathViewer.java
+344:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JREPreferenceModifyListener.java
+345:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/BooleanValueImpl.java
+346:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddVariableAction.java
+347:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/RefClass4.java
+348:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/EventRequestTest.java
+349:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaHotCodeReplaceListener.java
+350:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/environments/EnvironmentsManager.java
+351:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/ResourceInfo.java
+352:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/ColumnPresentationAdapterFactory.java
+353:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaLineBreakpoint.java
+354:org.eclipse.jdt.debug.tests/testprograms/EvalArrayTests.java
+355:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/StepEventTest.java
+356:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/PacketSendManager.java
+357:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/ConnectorImpl.java
+358:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/TestToggleBreakpointsTarget.java
+359:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaLogicalStructuresPreferencePage.java
+360:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/LocalFileStorage.java
+361:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/JDITestSuite.java
+362:org.eclipse.jdt.debug.tests/testprograms/FinalBreakpointLocations.java
+363:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/StringPlusOpTests.java
+364:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/JavaBreakpointPropertiesAction.java
+365:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/FloatAssignmentOperatorsTests.java
+366:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/DebugWorkingCopyManager.java
+367:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushFieldVariable.java
+368:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/MethodBreakpointDetailPane.java
+369:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/EvaluationEngineMessages.java
+370:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/VirtualMachineExitTest.java
+371:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_145.java
+372:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ReferenceTypeTest.java
+373:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/GenericsEvalTests.java
+374:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/FileConsoleReader.java
+375:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/BooleanValueTest.java
+376:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/VoidValue.java
+377:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/IOConsoleHyperlinkActionDelegate.java
+378:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/LibraryStandin.java
+379:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaArray.java
+380:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/IOConsoleTests.java
+381:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SnippetAction.java
+382:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaStackTracePageParticipant.java
+383:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/AddExceptionTypeDialogExtension.java
+384:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/InspectAction.java
+385:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/contentassist/JavaDebugCompletionProposalCollector.java
+386:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/Method.java
+387:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenVariableConcreteTypeHierarchyAction.java
+388:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/containers/ClasspathContainerSourceContainer.java
+389:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpClassObjectID.java
+390:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ReferenceType.java
+391:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/contentassist/DynamicTypeContext.java
+392:org.eclipse.jdt.debug.tests/testprograms/CompileError.java
+393:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/JREsEnvironmentLabelProvider.java
+394:org.eclipse.jdt.debug.tests/testprograms/ForceReturnTests.java
+395:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointRenameFieldParticipant.java
+396:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/AbstractJavaClasspathTab.java
+397:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/threadgroups/JavaModelProxyFactory.java
+398:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/MacInstalledJREs.java
+399:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaStratumLineBreakpoint.java
+400:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SnippetMessages.java
+401:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushType.java
+402:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ByteValue.java
+403:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/ConsoleTerminateAllActionTests.java
+404:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/TypeImpl.java
+405:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/Source_$_Lookup.java
+406:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/AttachingConnector.java
+407:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIClassType.java
+408:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/QualifiedStaticFieldValueTests2.java
+409:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/ScrapbookSourcepathProvider.java
+410:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/SourceLookupMessages.java
+411:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/LeftShiftOperator.java
+412:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/JDIDebugPluginPreferenceInitializer.java
+413:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MemberParser.java
+414:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/hcr/JavaHotCodeReplaceManager.java
+415:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MockReorgQueries.java
+416:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/JavaUISourceLocator.java
+417:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/ConditionalBreakpointErrorDialog.java
+418:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/environments/IExecutionEnvironment.java
+419:org.eclipse.jdt.launching.macosx/macosx/org/eclipse/jdt/internal/launching/macosx/MacOSXLaunchingPlugin.java
+420:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/StringSubstitutionTests.java
+421:org.eclipse.jdt.launching.macosx/macosx/org/eclipse/jdt/internal/launching/macosx/Messages.java
+422:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/WorkingDirectoryTests.java
+423:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/StepIntoSelectionHandler.java
+424:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/display/DisplayView.java
+425:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/DebugEventTests.java
+426:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/VMDisconnectEventImpl.java
+427:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/BooleanOperatorsTests.java
+428:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/VirtualMachine.java
+429:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/ClasspathEntry.java
+430:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/PerformanceSuite.java
+431:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/environments/ExecutionEnvironmentDescription.java
+432:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/EvalualtionBreakpointListener.java
+433:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_65.java
+434:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/PreLaunchBreakpointTest.java
+435:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ModificationWatchpointEventTest.java
+436:org.eclipse.jdt.debug.tests/testprograms/RunnableAppletImpl.java
+437:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/AppletWorkingDirectoryBlock.java
+438:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaDebugTarget.java
+439:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/StandardVM.java
+440:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ProjectCreationDecorator.java
+441:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpID.java
+442:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/ISnippetStateChangedListener.java
+443:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/OpenFromClipboardTests.java
+444:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaMainTab.java
+445:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/ContributedTestTab1.java
+446:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/DirectorySourceLocation.java
+447:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/HcrTests.java
+448:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_120.java
+449:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/environments/ExecutionEnvironment.java
+450:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpThreadID.java
+451:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/test/stepping/StepFilterTests.java
+452:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/propertypages/VMCapabilitiesPropertyPage.java
+453:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/environments/CompatibleEnvironment.java
+454:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/ClasspathVariableTests.java
+455:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/LaunchModeTests.java
+456:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/BootpathFilter.java
+457:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/ThrowInstruction.java
+458:org.eclipse.jdt.debug.tests/testprograms/java6/AllInstancesTests.java
+459:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/Standard11xVM.java
+460:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIValue.java
+461:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HcrClass5.java
+462:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_481.java
+463:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_94.java
+464:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddExternalJarAction.java
+465:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/PListParser.java
+466:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/MethodTest.java
+467:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AbstractAddStepFilterAction.java
+468:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ShortValueImpl.java
+469:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/ActionFilterAdapterFactory.java
+470:org.eclipse.jdt.debug.tests/testprograms/LotsOfFields.java
+471:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/FilterViewerComparator.java
+472:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaVariableCellModifier.java
+473:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/LaunchingConnector.java
+474:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/JavaRuntime.java
+475:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_69.java
+476:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IVMConnector.java
+477:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/TestModeLaunchDelegate.java
+478:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/LaunchConfigurationManagerTests.java
+479:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/ByteAssignmentOperatorsTests.java
+480:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/JavaSnippetViewerConfiguration.java
+481:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/InterpreterVariable.java
+482:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/PacketReceiveManager.java
+483:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/LaunchDelegateTests.java
+484:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/AbstractBreakpointWorkingSetTest.java
+485:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/StandardClasspathProvider.java
+486:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/JavaProjectSourceContainerBrowser.java
+487:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/VMListener.java
+488:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaMethodBreakpoint.java
+489:org.eclipse.jdt.debug.tests/testprograms/ThrowsException.java
+490:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsNestedTypes1.java
+491:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/Filter.java
+492:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/LaunchConfigurationITypeRenameParticipant.java
+493:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/Instruction.java
+494:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/TestSourceLocator.java
+495:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/JavaSourceLookupDialog.java
+496:org.eclipse.jdt.launching.macosx/macosx/org/eclipse/jdt/internal/launching/macosx/MacOSXVMInstallType.java
+497:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/FloatTypeImpl.java
+498:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/PrimitiveTypeImpl.java
+499:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/EventRequestManagerTest.java
+500:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/BinaryOperator.java
+501:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/LaunchConfigurationIPackageFragmentMoveParticipant.java
+502:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/spi/ClosedConnectionException.java
+503:org.eclipse.jdt.debug.tests/testprograms/TestContributedStepFilterClass.java
+504:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/MiscBreakpointsTests.java
+505:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/LaunchConfigurationTests.java
+506:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/ClassUnloadRequest.java
+507:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/GeneralEvalTests.java
+508:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/BootpathTests.java
+509:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/JavaElementContentProvider.java
+510:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/Interpreter.java
+511:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/NativeMethodException.java
+512:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClass4.java
+513:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ReferenceTypeImpl.java
+514:org.eclipse.jdt.launching.macosx/macosx/org/eclipse/jdt/internal/launching/macosx/MacOSXDebugVMRunner.java
+515:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_32_5.java
+516:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointMoveTypeParticipant.java
+517:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/display/DisplayMessages.java
+518:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/SuspendTimeoutStatusHandler.java
+519:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/ThreadDeathRequestImpl.java
+520:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenReceivingTypeHierarchyAction.java
+521:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/containers/JavaProjectSourceContainer.java
+522:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/AssignmentOperator.java
+523:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ClassPrepareEventWaiter.java
+524:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/ConditionalBreakpointHandler.java
+525:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JDIModelPresentation.java
+526:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/ProjectClasspathArgumentSelector.java
+527:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaHotCodeReplaceListener.java
+528:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_455.java
+529:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddProjectAction.java
+530:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/SocketLaunchingConnectorImpl.java
+531:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/performance/JavaApplicationStatusHandler.java
+532:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/heapwalking/AllReferencesInViewActionDelegate.java
+533:org.eclipse.jdt.debug.tests/testprograms/EvalSimpleTests.java
+534:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/RenameMethodUnitTests.java
+535:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/ContributedTabTests.java
+536:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/generator/NestedTypeTestGenerator.java
+537:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/presentation/TestIJavaObjectValue.java
+538:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/PushDownMethodUnitTests.java
+539:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ConstantPoolTests.java
+540:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpObjectID.java
+541:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushArrayLength.java
+542:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaDetailFormattersManager.java
+543:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_32_6.java
+544:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/ModificationWatchpointEventImpl.java
+545:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/test/stepping/StepResultTests.java
+546:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/WorkspaceSourceContainerTests.java
+547:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/IntroduceParameterUnitTests.java
+548:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/LauncherMessages.java
+549:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushThis.java
+550:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaDebugHover.java
+551:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaType.java
+552:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ForceReturnAction.java
+553:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/MultiplyAssignmentOperator.java
+554:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ArrayReferenceTest.java
+555:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JDISourceViewer.java
+556:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/performance/PerfSteppingTests.java
+557:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ExceptionEventTest.java
+558:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HelloLauncher.java
+559:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ArrayTypeImpl.java
+560:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/performance/PerfVariableDetailTests.java
+561:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HcrClass.java
+562:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/MethodEntryEventImpl.java
+563:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/BreakpointWorkingSetTests.java
+564:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/IClasspathEntry.java
+565:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/presentation/TestIJavaType.java
+566:org.eclipse.jdt.debug.tests/testsource-j2se-1.5/a/b/c/IntegerAccess.java
+567:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/DetailFormatter.java
+568:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/XorOperator.java
+569:org.eclipse.jdt.debug.tests/testsource-j2se-1.5/a/b/c/bug484686.java
+570:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/JavaMonitor.java
+571:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ArrayReferenceImpl.java
+572:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ThreadStartEventTest.java
+573:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/StackFrameTest.java
+574:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/DivideOperator.java
+575:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsTypeHierarchy1.java
+576:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/ArchiveFileFilter.java
+577:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ByteType.java
+578:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_506.java
+579:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/IllegalConnectorArgumentsException.java
+580:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/GenericSignature.java
+581:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/EditDetailFormatterAction.java
+582:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/test/stepping/TestContributedStepFilter.java
+583:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ExitToggleAction.java
+584:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaContentProviderFilter.java
+585:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/AndOperator.java
+586:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/ClasspathVariableSourceContainerBrowser.java
+587:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/ASTInstructionCompiler.java
+588:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/ClassPrepareBreakpointTypeChange.java
+589:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/propertypages/JavaBreakpointPage.java
+590:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/BundleBuilder.java
+591:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/SourceBasedSourceGenerator.java
+592:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/RetargettableActionAdapterFactory.java
+593:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/InterfaceType.java
+594:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/StorageEditorInput.java
+595:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushClassLiteralValue.java
+596:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/JavaProjectSourceLocation.java
+597:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/JavaDebugPropertyTester.java
+598:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JDWPMessages.java
+599:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/ASTEvaluationEngine.java
+600:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ByteValueImpl.java
+601:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ThreadDeathEventTest.java
+602:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/RunToLineTests.java
+603:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/AppletMainTab.java
+604:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/AccessWatchpointRequestImpl.java
+605:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/AbstractDetailPane.java
+606:org.eclipse.jdt.debug.tests/testprograms/ConsoleVariableLineLength.java
+607:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/IntegerValue.java
+608:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/ExpressionInformationControlCreator.java
+609:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/SourceLookupBlock.java
+610:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/IntegerValueImpl.java
+611:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/EventSetImpl.java
+612:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaModifiers.java
+613:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/EventSetTests.java
+614:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/VMDeathRequestImpl.java
+615:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/InstructionPointerManagerTests.java
+616:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/VoidTypeImpl.java
+617:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/VariableOptionsAction.java
+618:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/environments/IExecutionEnvironmentAnalyzerDelegate.java
+619:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/ArrayRuntimeContext.java
+620:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MoveCompilationUnitTests.java
+621:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaVarActionFilter.java
+622:org.eclipse.jdt.debug.tests/testprograms/DropTests.java
+623:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/JavaSourceLocator.java
+624:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/Type.java
+625:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaLineBreakpoint.java
+626:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDINullValue.java
+627:org.eclipse.jdt.debug.tests/testprograms/GotNewName.java
+628:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/ExecutionEnvironmentsPreferencePage.java
+629:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/InstructionsEvaluationMessages.java
+630:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_119_1.java
+631:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/TypeResolutionTests.java
+632:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/LaunchConfigurationProjectMainTypeChange.java
+633:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_304.java
+634:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/VMDisconnectEventWaiter.java
+635:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/EventRequestImpl.java
+636:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaVariableColumnPresentationFactory.java
+637:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/spi/Connection.java
+638:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/PrimitiveValue.java
+639:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/RefClass1.java
+640:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/WatchpointRequestTest.java
+641:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/AbstractDebugTest.java
+642:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/TypeComponentImpl.java
+643:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/RuntimeClasspathAction.java
+644:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaClasspathTab.java
+645:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClass5.java
+646:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/SocketTransportImpl.java
+647:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaArrayType.java
+648:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddExternalFolderAction.java
+649:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_279.java
+650:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/logicalstructures/IJavaStructuresListener.java
+651:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/MonitorWaitedEvent.java
+652:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/SocketUtil.java
+653:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/threadgroups/JavaDebugTargetProxy.java
+654:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/AccessWatchpointEventImpl.java
+655:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_68_3.java
+656:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/StepEventImpl.java
+657:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SnippetEditorPropertyPage.java
+658:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/MethodExitEvent.java
+659:org.eclipse.jdt.debug.tests/testprograms/TestException.java
+660:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/AbstractJavaMainTab.java
+661:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PlusOperator.java
+662:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/JDIDebugModel.java
+663:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/JavaObjectRuntimeContext.java
+664:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/TextTestResult.java
+665:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/VariableClasspathEntryAdapterFactory.java
+666:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/LeftShiftAssignmentOperator.java
+667:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/LongValue.java
+668:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/CharValueTest.java
+669:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/EventTest.java
+670:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/LocalVariableCreation.java
+671:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaVariableColumnPresentation.java
+672:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/ClassPrepareEventImpl.java
+673:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ViewFilterAction.java
+674:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/test/stepping/ForceReturnTests.java
+675:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ShowConstantsAction.java
+676:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/NullConsoleReader.java
+677:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/SourceLocationTests.java
+678:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddPackageStepFilterAction.java
+679:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/EvaluationSourceGenerator.java
+680:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/IntegerTypeImpl.java
+681:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IRuntimeClasspathProvider.java
+682:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ThreadReference.java
+683:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/AddVMInstallWizard.java
+684:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/FloatType.java
+685:org.eclipse.jdt.debug.tests/testprograms/StackTraces.java
+686:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/ResumeBreakpointListener.java
+687:org.eclipse.jdt.debug.tests/testprograms/InstanceFilterObject.java
+688:org.eclipse.jdt.debug.tests/testprograms/ForceReturnTestsTwo.java
+689:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/heapwalking/Messages.java
+690:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/ClasspathContentProvider.java
+691:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/LocatableEventImpl.java
+692:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/JavaDebugShowInAdapterFactory.java
+693:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/InstructionSequence.java
+694:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClass1.java
+695:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/performance/BreakpointManagerPerfTests.java
+696:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenVariableDeclaredTypeHierarchyAction.java
+697:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/GlobalBreakpointListener.java
+698:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/ConditionalBreakpointsWithGenerics.java
+699:org.eclipse.jdt.debug.tests/testprograms/MigrationTests2.java
+700:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/RightShiftOperator.java
+701:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/InstalledJREsBlock.java
+702:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/hcr/JDIDebugHCRMessages.java
+703:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/HotCodeReplacementTest.java
+704:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ExcludeExceptionLocationAction.java
+705:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/TypeNameBreakpointTests.java
+706:org.eclipse.jdt.debug.tests/testprograms/EvalAnonymousClassVariableTests.java
+707:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/BreakpointHitCountAction.java
+708:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/MonitorWaitEvent.java
+709:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/ClassPrepareRequest.java
+710:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/WatchpointDetailPane.java
+711:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/AccessWatchpointEvent.java
+712:org.eclipse.jdt.debug.tests/testprograms/Console80Chars.java
+713:org.eclipse.jdt.debug.tests/testsource-j2se-1.5/a/b/c/bug403028.java
+714:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/performance/OpenLaunchConfigurationDialogTests.java
+715:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_739.java
+716:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/EventRequest.java
+717:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/StandardVMPage.java
+718:org.eclipse.jdt.debug.tests/java8/EvalTestIntf18.java
+719:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HcrClass2.java
+720:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/FieldValueTests.java
+721:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/VMLibraryBlock.java
+722:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/EvaluateAction.java
+723:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/EditStepFiltersAction.java
+724:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/presentation/ModelPresentationTests.java
+725:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/EECompilationParticipant.java
+726:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaTargetPatternBreakpoint.java
+727:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/RunToLineAdapter.java
+728:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/ThreadMonitorManager.java
+729:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/spy/JdwpReplyPacket.java
+730:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/MoveDownAction.java
+731:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/BreakpointLocationVerifierJob.java
+732:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/VMStartEvent.java
+733:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/SampleDynamicVariableResolver.java
+734:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/JavaDebugUtils.java
+735:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/ValidBreakpointLocationLocator.java
+736:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/TestSourcePathComputer.java
+737:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HcrClass9.java
+738:org.eclipse.jdt.debug.tests/testprograms/ThrowsNPE.java
+739:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ExpressionInputDialog.java
+740:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/threadgroups/JavaDebugTargetContentProvider.java
+741:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/hcr/EventRequestManager.java
+742:org.eclipse.jdt.debug.tests/testprograms/FloodConsole.java
+743:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushPrimitiveType.java
+744:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/threadgroups/ThreadGroupMessages.java
+745:org.eclipse.jdt.debug.tests/testsource-j2se-1.5/a/b/c/bug329294WithGenerics.java
+746:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenVariableTypeAction.java
+747:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/DefaultProjectClasspathEntry.java
+748:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SelectImportsAction.java
+749:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/ConvertInnerAnonymousTypeToNestedUnitTests.java
+750:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/EditClasspathEntryAction.java
+751:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ToggleBreakpointAdapter.java
+752:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/JavaDebugTargetTests.java
+753:org.eclipse.jdt.debug.tests/testprograms/StaticVariablesTests.java
+754:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/DivideAssignmentOperator.java
+755:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/MonitorWaitedRequestImpl.java
+756:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/DebugElementKindEventWaiter.java
+757:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_566.java
+758:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/LaunchConfigurationIPackageFragmentRenameParticipant.java
+759:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JavaClasspathVariablesInitializer.java
+760:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/MacBundleWizard.java
+761:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/spy/TcpipSpy.java
+762:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIInterfaceType.java
+763:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/propertypages/PropertyPageMessages.java
+764:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_252.java
+765:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaPrimitiveValue.java
+766:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaValue.java
+767:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/VMStandin.java
+768:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/actions/JavaBreakpointPropertiesRulerActionDelegate.java
+769:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ShortValue.java
+770:org.eclipse.jdt.debug.tests/testprograms/MultiThreadedList.java
+771:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/MethodEntryRequestImpl.java
+772:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/MacOSXUILaunchingPlugin.java
+773:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/JavaBreakpointTypeAdapterFactory.java
+774:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/ZipEntryStorageEditorInput.java
+775:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/VMInstallTests.java
+776:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/AbstractVMInstallType.java
+777:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ObjectReferenceTest.java
+778:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/RemoveDetailFormatterAction.java
+779:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ShowMonitorThreadInformation.java
+780:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaExceptionBreakpoint.java
+781:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/JavaAlernateModeTab.java
+782:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/Tests.java
+783:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/ArrayAccess.java
+784:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/JarSourceLookupTests.java
+785:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/FieldImpl.java
+786:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/AutoFormatSettingAction.java
+787:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/TestAgainException.java
+788:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/MirrorImpl.java
+789:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/SocketAttachingConnectorImpl.java
+790:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/search/LaunchConfigurationQueryParticipant.java
+791:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_32_2.java
+792:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaTargetPatternBreakpoint.java
+793:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaArgumentsTab.java
+794:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/ShortOperatorsTests.java
+795:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaBreakpointListener.java
+796:org.eclipse.jdt.debug.tests/testprograms/StepFilterThree.java
+797:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpStringID.java
+798:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/WatchExpressionTests.java
+799:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/StepIntoSelectionHyperlinkDetector.java
+800:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/RuntimeClasspathProvider.java
+801:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ClassLoaderReferenceImpl.java
+802:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/ThreadStartEventImpl.java
+803:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/EditVariableLogicalStructureAction.java
+804:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/display/DataDisplay.java
+805:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/ScrapbookLauncher.java
+806:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/WatchpointEventImpl.java
+807:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaLikeExtensionsResolver.java
+808:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/IOConsoleEchoActionDelegate.java
+809:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/display/DisplayViewAction.java
+810:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HelloLauncherWithArg.java
+811:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/StringReferenceImpl.java
+812:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ClassPrepareEventTest.java
+813:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenTypeAction.java
+814:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ProvideArgumentsTests.java
+815:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/AppletLaunchConfigurationUtils.java
+816:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/IJDIStatusConstants.java
+817:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/BreakpointUtils.java
+818:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/BreakpointDetailPaneFactory.java
+819:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/NullVariableInitializer.java
+820:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_529.java
+821:org.eclipse.jdt.debug.tests/testprograms/Breakpoints.java
+822:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ShowThreadGroups.java
+823:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/ExecutionEnvironmentsLabelProvider.java
+824:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/environments/AccessRuleParticipant.java
+825:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIDebugTarget.java
+826:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/generator/TypeHierarchyTestsGenerator.java
+827:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_68_2.java
+828:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/PopupInspectAction.java
+829:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/Pop.java
+830:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/VirtualMachineImpl.java
+831:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/TestJavaApplicationTabGroup.java
+832:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/ConsoleMessages.java
+833:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JREContainer.java
+834:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/StringReference.java
+835:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/contentassist/CurrentFrameContext.java
+836:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/ConsoleLineTracker.java
+837:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/ExceptionBreakpointEditor.java
+838:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/MonitorWaitRequestImpl.java
+839:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/IntOperatorsTests.java
+840:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/ConvertPublicAnonymousTypeToNestedUnitTests.java
+841:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/MigrationDelegateTests.java
+842:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/detailpane/TableDetailPane.java
+843:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/InstanceFilterTests.java
+844:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/AbstractReader.java
+845:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpClassID.java
+846:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JavaLaunchableTester.java
+847:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/RequestMessages.java
+848:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/LaunchConfigurationITypeMoveParticipant.java
+849:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/ErrorDialogWithToggle.java
+850:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/TypeTests.java
+851:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClazz9.java
+852:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/StatusInfo.java
+853:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/TriggerPointBreakpointsTests.java
+854:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/StopAction.java
+855:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/RequestID.java
+856:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/RefClass2.java
+857:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/hcr/ThreadReference.java
+858:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/MoveUpAction.java
+859:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenStackFrameAction.java
+860:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/ExceptionHandler.java
+861:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaStackTraceConsoleViewer.java
+862:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/JavaOwnedMonitor.java
+863:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/JavaVariableValueEditor.java
+864:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIThread.java
+865:org.eclipse.jdt.debug.tests/testresources/xtend-source/HelloWorld.java
+866:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/generator/OtherTestsGenerator.java
+867:org.eclipse.jdt.debug.tests/testprograms/ByteArrayTests.java
+868:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpClassLoaderID.java
+869:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/WorkbenchAdapterFactory.java
+870:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/StepRequest.java
+871:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaApplicationLaunchShortcut.java
+872:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/Event.java
+873:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/MonitorContendedEnterRequestImpl.java
+874:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/ViewManagementTests.java
+875:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/VirtualMachineManager.java
+876:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/SelectDefaultSystemLibraryQuickFix.java
+877:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/ContendedMonitorContentProvider.java
+878:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/ExecutionArguments.java
+879:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/MultiplyOperator.java
+880:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/AccessRuleParticipant.java
+881:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointChange.java
+882:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/EventImpl.java
+883:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/ArchiveSourceLocation.java
+884:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IVMInstall2.java
+885:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/AccessibleImpl.java
+886:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/IJavaSourceLocation.java
+887:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/ClassUnloadEventImpl.java
+888:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/console/JavaStackTraceConsoleFactory.java
+889:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/SourceNameFilterTests.java
+890:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/ExecutionEnvironmentTests.java
+891:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/AbstractVMRunner.java
+892:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/StringValueInputDialog.java
+893:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/MonitorFrameInfoTests.java
+894:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/BundleAttributes.java
+895:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ObjectReference.java
+896:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/DisplayAction.java
+897:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/propertypages/ThreadFilterEditor.java
+898:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/VirtualMachineManagerImpl.java
+899:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/VMDisconnectedException.java
+900:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaStackFrameLabelProvider.java
+901:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ClassNotPreparedException.java
+902:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/JDIDebugPlugin.java
+903:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/ArrayAssignmentTests.java
+904:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_32_4.java
+905:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/EventRequestManager.java
+906:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/BreakpointEvent.java
+907:org.eclipse.jdt.debug.tests/java8/EvalTest18.java
+908:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/FloatOperatorsTests.java
+909:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/ConsoleTests.java
+910:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/VerticalRulerInfoStub.java
+911:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ShowStratumAction.java
+912:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/DeferredBreakpointTests.java
+913:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/IRuntimeContext.java
+914:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/BooleanTypeImpl.java
+915:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/ClasspathContainerSourceContainerTypeDelegate.java
+916:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/WatchpointFieldChange.java
+917:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/StringReferenceTest.java
+918:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/MethodExitRequest.java
+919:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/TestAll.java
+920:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/EventQueueImpl.java
+921:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIVariable.java
+922:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/containers/PackageFragmentRootSourceContainer.java
+923:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/ArchiveSourceLookupTests.java
+924:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/ReturnInstruction.java
+925:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/VMRunnerConfiguration.java
+926:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/ClassUnloadEvent.java
+927:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaClassType.java
+928:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/connectors/MultipleConnectionsTest.java
+929:org.eclipse.jdt.debug.tests/testprograms/VariableChanges.java
+930:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaBreakpointWorkbenchAdapterFactory.java
+931:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/BreakpointEventImpl.java
+932:org.eclipse.jdt.debug.tests/testprograms/ConsoleInput.java
+933:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/MonitorContendedEnteredEvent.java
+934:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/HeapWalkingPreferencePage.java
+935:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IRuntimeClasspathEntryResolver.java
+936:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClass.java
+937:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/Value.java
+938:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SnippetOpenHierarchyOnSelectionAction.java
+939:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/MethodEntryEvent.java
+940:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/ArrayDetailTests.java
+941:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/threadgroups/ThreadGroupAdapterFactory.java
+942:org.eclipse.jdt.launching/support/org/eclipse/jdt/internal/launching/support/LibraryDetector.java
+943:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/SendStaticMessage.java
+944:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/EEVMPage.java
+945:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaThread.java
+946:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/RuntimeClasspathAdvancedDialog.java
+947:org.eclipse.jdt.debug.tests/testprograms/EvalTypeTests.java
+948:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/ClasspathVariableSourceContainerTypeDelegate.java
+949:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpThreadGroupID.java
+950:org.eclipse.jdt.debug.tests/testsource-j2se-1.5/a/b/c/StepIntoSelectionWithGenerics.java
+951:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JDIImageDescriptor.java
+952:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaExceptionHyperLink.java
+953:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JRERuntimeClasspathEntryResolver.java
+954:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/MethodBreakpointChange.java
+955:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/Value.java
+956:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/spi/TransportService.java
+957:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/CreateStepFilterDialog.java
+958:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/display/DetailsViewerConfiguration.java
+959:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/VMInstallWizard.java
+960:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/EvaluationContextStatusHandler.java
+961:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaSourceLocationWorkbenchAdapterFactory.java
+962:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/RemainderAssignmentOperator.java
+963:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/AbstractRuntimeClasspathEntry.java
+964:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ObjectActionDelegate.java
+965:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/ExtractMethodUnitTests.java
+966:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/ContextView.java
+967:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/WaitingThreadContentProvider.java
+968:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IRuntimeClasspathEntry.java
+969:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/EventListener.java
+970:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/TestClasspathContainerInitializer.java
+971:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/test/stepping/StepIntoSelectionTests.java
+972:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ProjectSelectionDialog.java
+973:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/spy/JdwpConversation.java
+974:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/breakpoints/JavaBreakpointConditionEditor.java
+975:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/EditVMInstallWizard.java
+976:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/InstanceOfOperator.java
+977:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/CharAssignmentOperatorsTests.java
+978:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/DoubleType.java
+979:org.eclipse.jdt.debug.tests/testprograms/LogicalStructures.java
+980:org.eclipse.jdt.debug.tests/testsource-j2se-1.5/a/b/c/GenericMethodEntryTest.java
+981:org.eclipse.jdt.debug.tests/testprograms/ConsoleStackTrace.java
+982:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/BreakpointLocationVerificationTests.java
+983:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddFolderAction.java
+984:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/VoidType.java
+985:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/VariableClasspathResolver.java
+986:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/VMInstallTestsLibraryLocationResolver.java
+987:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/EventDispatcher.java
+988:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/ProcessTests.java
+989:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/DirectorySourceLookupTests.java
+990:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/DetailFormatterDialog.java
+991:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/AbstractVMInstallPage.java
+992:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IVMInstallChangedListener.java
+993:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/ClasspathModel.java
+994:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/MonitorInfo.java
+995:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddTypeStepFilterAction.java
+996:org.eclipse.jdt.debug.tests/testprograms/MethodEntryRunner.java
+997:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/Transport.java
+998:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/JavaLibraryPathTests.java
+999:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ValueTest.java
+1000:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/ClassPrepareRequestImpl.java
+1001:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIVoidValue.java
+1002:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/ImportBreakpointsTest.java
+1003:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/JavaBreakpointPropertiesRulerAction.java
+1004:org.eclipse.jdt.debug.tests/testprograms/bug401270.java
+1005:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/UnaryPlusOperator.java
+1006:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/LocalVariableImpl.java
+1007:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/ThreadStartRequestImpl.java
+1008:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ExecuteAction.java
+1009:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaDebugPreferencePage.java
+1010:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpReferenceTypeID.java
+1011:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/MethodEntryRequest.java
+1012:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaFieldVariable.java
+1013:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JavaSourceLookupUtil.java
+1014:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/EvalTestSuite.java
+1015:org.eclipse.jdt.debug.tests/java8/EvalIntfSuperDefault.java
+1016:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/AlternateDelegate.java
+1017:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/StringPlusAssignmentOpTests.java
+1018:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/VMArgumentsBlock.java
+1019:org.eclipse.jdt.debug.tests/testprograms/InspectTests.java
+1020:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IVMRunner.java
+1021:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JDIDebugUIPlugin.java
+1022:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JavaSourceLookupDirector.java
+1023:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushInt.java
+1024:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/VMDeathEventImpl.java
+1025:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/DuplicateRequestException.java
+1026:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/LineBreakpointDetailPane.java
+1027:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MoveInnerTypeUnitTests.java
+1028:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaDebugElementAdapterFactory.java
+1029:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/AbsentInformationException.java
+1030:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/logicalstructures/JDIReturnValueVariable.java
+1031:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ThreadReferenceTest.java
+1032:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/JreResolutionGenerator.java
+1033:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/threadgroups/JavaThreadGroupLabelProvider.java
+1034:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/logicalstructures/LogicalStructuresMessages.java
+1035:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/AbstractJavaLaunchConfigurationDelegate.java
+1036:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/MethodExitRequestTest.java
+1037:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/AbstractClasspathEntry.java
+1038:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/WatchpointRequestImpl.java
+1039:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/IClasspathEditor.java
+1040:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/SuspendOnCompilationErrorListener.java
+1041:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/DebugSuite.java
+1042:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/TypeComponent.java
+1043:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/JavaSnippetEditor.java
+1044:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/ClassOne.java
+1045:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/ExceptionBreakpointTests.java
+1046:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/ProjectClasspathVariableResolver.java
+1047:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/AppletSelectionDialog.java
+1048:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/ThreadDeathEvent.java
+1049:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/MonitorWaitedRequest.java
+1050:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/VMDisconnectEventTest.java
+1051:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_354.java
+1052:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/propertypages/JavaExceptionBreakpointAdvancedPage.java
+1053:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/hcr/CompilationUnitDelta.java
+1054:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/variables/TestIntegerAccessUnboxing15.java
+1055:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/EventRequestManagerImpl.java
+1056:org.eclipse.jdt.debug/eval/org/eclipse/jdt/debug/eval/IAstEvaluationEngine.java
+1057:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/ConditionalBreakpointsTests.java
+1058:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsBreakpointConditions.java
+1059:org.eclipse.jdt.debug.tests/testprograms/NativeDropTests.java
+1060:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/AbstractRuntimeContext.java
+1061:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ClassLoaderReference.java
+1062:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/XfixOperatorsTests.java
+1063:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/contentassist/TypeContext.java
+1064:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/logicalstructures/JavaStructureErrorValue.java
+1065:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/WatchpointEvent.java
+1066:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/FloatValueTest.java
+1067:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/Constructor.java
+1068:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IVMInstall3.java
+1069:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PlusAssignmentOperator.java
+1070:org.eclipse.jdt.debug.tests/testprograms/InstanceVariablesTests.java
+1071:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/InterfaceTypeImpl.java
+1072:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/ModificationWatchpointRequestImpl.java
+1073:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/NotYetImplementedException.java
+1074:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/IAddVMDialogRequestor.java
+1075:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushDouble.java
+1076:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/state/RefreshStateTests.java
+1077:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpArrayID.java
+1078:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/containers/JavaSourceLookupParticipant.java
+1079:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/RenameFieldUnitTests.java
+1080:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/Timer.java
+1081:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ExceptionRequestTest.java
+1082:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JREContainerInitializer.java
+1083:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointMovePackageParticipant.java
+1084:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/ArgumentTests.java
+1085:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ShortValueTest.java
+1086:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ArrayType.java
+1087:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/TestBufferredOutputActionDelegate.java
+1088:org.eclipse.jdt.debug.tests/testprograms/OneToTen.java
+1089:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AttachSourceAction.java
+1090:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/StepIntoEditorSelectionHandler.java
+1091:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/AddAdvancedAction.java
+1092:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsAnonymousClassVariable.java
+1093:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClass2.java
+1094:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/ThreadStartEvent.java
+1095:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/logicalstructures/LogicalObjectStructureValue.java
+1096:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_32_3.java
+1097:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/WatchpointEditor.java
+1098:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/TwiddleOperator.java
+1099:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/RefactoringMessages.java
+1100:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MoveFieldUnitTests.java
+1101:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/IEntriesChangedListener.java
+1102:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaBreakpoint.java
+1103:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/InstanceVariableTests.java
+1104:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/LibraryLabelProvider.java
+1105:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ThreadGroupReferenceImpl.java
+1106:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/AutomatedSuite.java
+1107:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/display/DisplayViewerConfiguration.java
+1108:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/spy/JdwpCommandPacket.java
+1109:org.eclipse.jdt.debug.tests/testprograms/LocalVariableTests2.java
+1110:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HcrClass3.java
+1111:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/PatternBreakpointTests.java
+1112:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/Cast.java
+1113:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/InvocationException.java
+1114:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaStratumLineBreakpoint.java
+1115:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/JavaSnippetCompletionProcessor.java
+1116:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_406.java
+1117:org.eclipse.jdt.debug.tests/testprograms/EvalTypeHierarchyTests.java
+1118:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ArrayTypeTest.java
+1119:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClazz8.java
+1120:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/PackageSelectionDialog.java
+1121:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/VMDisposeTest.java
+1122:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaDetailFormattersPreferencePage.java
+1123:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/propertypages/JavaBreakpointAdvancedPage.java
+1124:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/variables/TestAnonymousInspect.java
+1125:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/presentation/TestIJavaArrayValue.java
+1126:org.eclipse.jdt.debug.tests/testprograms/ConditionalStepReturn.java
+1127:org.eclipse.jdt.debug.tests/testprograms/MultiThreadedException.java
+1128:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/ClasspathLabelProvider.java
+1129:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/NoMonitorInformationElement.java
+1130:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/CharTypeImpl.java
+1131:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/environments/IExecutionEnvironmentsManager.java
+1132:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/CallLoop.java
+1133:org.eclipse.jdt.debug/eval/org/eclipse/jdt/debug/eval/IEvaluationEngine.java
+1134:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PostfixMinusMinusOperator.java
+1135:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/OtherClass.java
+1136:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/DoubleValueTest.java
+1137:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/IJavaDebugUIConstants.java
+1138:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/RuntimeClasspathViewer.java
+1139:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/AlternateStratumTests.java
+1140:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/MonitorInfoImpl.java
+1141:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaPatternBreakpoint.java
+1142:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/connectors/MockLaunch.java
+1143:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/ui/DetailPaneManagerTests.java
+1144:org.eclipse.jdt.debug.tests/testprograms/IBreakpoints.java
+1145:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/ProjectClasspathVariableTests.java
+1146:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/PrimitiveValueTest.java
+1147:org.eclipse.jdt.debug.tests/testprograms/FooPropertyPrinter.java
+1148:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/BreakpointFieldLocator.java
+1149:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/IntegerType.java
+1150:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/LoopTests.java
+1151:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/MonitorContendedEnterEventImpl.java
+1152:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaDebugOptionsManager.java
+1153:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaClassObject.java
+1154:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/EEVMInstall.java
+1155:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/SocketListeningConnectorImpl.java
+1156:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/Mirror.java
+1157:org.eclipse.jdt.debug.tests/testprograms/WatchItemTests.java
+1158:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_616.java
+1159:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ValueImpl.java
+1160:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/MinusOperator.java
+1161:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ArrayReference.java
+1162:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/PListParserTests.java
+1163:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/JDTDebugRefactoringUtil.java
+1164:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/SourceElementQualifierProvider.java
+1165:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/containers/ClasspathVariableSourceContainer.java
+1166:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/Looper.java
+1167:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/detailpane/TestDetailPaneFactory.java
+1168:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/VariableClasspathEntryWorkbenchAdapter.java
+1169:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/heapwalking/JavaWatchExpressionFilter.java
+1170:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIThreadGroup.java
+1171:org.eclipse.jdt.debug.tests/testprograms/MigrationTests.java
+1172:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/RenameCompilationUnitUnitTests.java
+1173:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ClassPrepareRequestTest.java
+1174:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/NameValuePairDialog.java
+1175:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SnippetEditorActionContributor.java
+1176:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/WatchAction.java
+1177:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/SocketRawLaunchingConnectorImpl.java
+1178:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/ExceptionBreakpointTypeChange.java
+1179:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/StandardBreakpointDetailPane.java
+1180:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/WatchpointTests.java
+1181:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/AccessibleTest.java
+1182:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/ExecutionEnvironmentSelector.java
+1183:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpCommandPacket.java
+1184:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/Standard11xVMType.java
+1185:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IRuntimeContainerComparator.java
+1186:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/Connector.java
+1187:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/ClassTwo.java
+1188:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpPacket.java
+1189:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointRenameTypeParticipant.java
+1190:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/JREsUpdater.java
+1191:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/HitCountBreakpointsTests.java
+1192:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/DebugUIMessages.java
+1193:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/Bootstrap.java
+1194:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/LaunchesTests.java
+1195:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ValidBreakpointLocationLocator.java
+1196:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/JavaBreakpointListenerTests.java
+1197:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/ValueVariableInitializer.java
+1198:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/WatchpointTypeRenameChange.java
+1199:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/performance/PerfConsoleTests.java
+1200:org.eclipse.jdt.debug.tests/testprograms/LocalVariablesTests.java
+1201:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/ExpressionWaiter.java
+1202:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/NotOperator.java
+1203:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/LineBreakpointChange.java
+1204:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/SourceLookup.java
+1205:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/LocationTest.java
+1206:org.eclipse.jdt.debug.tests/testprograms/LargeSourceFile.java
+1207:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/ByteOperatorsTests.java
+1208:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/BreakpointMarkerUpdater.java
+1209:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpString.java
+1210:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/BundleWizardPage3.java
+1211:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpFrameID.java
+1212:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/InstanceFiltersAction.java
+1213:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/LibraryInfo.java
+1214:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/FloatValueImpl.java
+1215:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/ProjectSourceContainerTests.java
+1216:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/LocalVariableTest.java
+1217:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/JavaStackTraceConsoleTest.java
+1218:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/TimeoutException.java
+1219:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/display/IDataDisplay.java
+1220:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/AutomatedSuite.java
+1221:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushChar.java
+1222:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/ReenterStepRequestImpl.java
+1223:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaBreakpointImportParticipant.java
+1224:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/NewSnippetFileWizardPage.java
+1225:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/StackFrameShowInTargetListAdapter.java
+1226:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/DebugElementKindEventDetailWaiter.java
+1227:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/ClassPrepareBreakpointChange.java
+1228:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/BooleanType.java
+1229:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/StepRequestImpl.java
+1230:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/MirrorTest.java
+1231:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/logicalstructures/JDIPlaceholderVariable.java
+1232:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/Standard11xVMRunner.java
+1233:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/OpenPreferencePageResolution.java
+1234:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/Util.java
+1235:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/ThreadStack.java
+1236:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/FolderSourceContainerTests.java
+1237:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/AddExceptionAction.java
+1238:org.eclipse.jdt.debug.tests/testprograms/ArgumentsTests.java
+1239:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/NewDetailFormatterAction.java
+1240:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/CharOperatorsTests.java
+1241:org.eclipse.jdt.debug.tests/testprograms/PerfLoop.java
+1242:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/JavaLaunchDelegate.java
+1243:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/DefaultEntryResolver.java
+1244:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIArrayType.java
+1245:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIFieldVariable.java
+1246:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/InvalidStackFrameException.java
+1247:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/ClasspathProviderTests.java
+1248:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/TerminateEvaluationAction.java
+1249:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/TestToggleBreakpointsTarget8.java
+1250:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/RightShiftAssignmentOperator.java
+1251:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/hcr/OperationRefusedException.java
+1252:org.eclipse.jdt.debug.tests/testprograms/HitCountException.java
+1253:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/ExceptionEventImpl.java
+1254:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/heapwalking/AllInstancesActionDelegate.java
+1255:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/SourceElementLabelProviderAdapterFactory.java
+1256:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/SocketAttachConnector.java
+1257:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PrefixMinusMinusOperator.java
+1258:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/SnippetDocumentSetupParticipant.java
+1259:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/JavaObjectValueEditor.java
+1260:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/StaticFieldValueTests.java
+1261:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NumericTypesCastTests.java
+1262:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/PathSearchingVirtualMachine.java
+1263:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/ArrayAllocationTests.java
+1264:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ThreadReferenceImpl.java
+1265:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushNull.java
+1266:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/CallStack.java
+1267:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JDIContentAssistPreference.java
+1268:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/VMStartException.java
+1269:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/ShortAssignmentOperatorsTests.java
+1270:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/EnvironmentTests.java
+1271:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ShowStaticVariablesAction.java
+1272:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/JavaWorkingDirectoryBlock.java
+1273:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/JDWPTests.java
+1274:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HelloLauncherWithArgs.java
+1275:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/ArrayTests.java
+1276:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/BreakpointMessages.java
+1277:org.eclipse.jdt.debug.tests/testprograms/MultiThreadedLoop.java
+1278:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/DefaultSourceContainerTests.java
+1279:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/Java8Tests.java
+1280:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/LibraryLocation.java
+1281:org.eclipse.jdt.debug.tests/testprograms/WorkingDirectoryTest.java
+1282:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaPrimitivesPreferencePage.java
+1283:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/WorkbenchAdapter.java
+1284:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/RenameInnerTypeUnitTests.java
+1285:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/StandardVMCommandTab.java
+1286:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/LocalVariable.java
+1287:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JDIDebugBreakpointMessages.java
+1288:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIMethod.java
+1289:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/SocketListenConnector.java
+1290:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/NewSnippetFileCreationWizard.java
+1291:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/LaunchingPlugin.java
+1292:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/StandardVMDebugger.java
+1293:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/environments/Analyzer.java
+1294:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/environments/ExecutionEnvironmentVariableResolver.java
+1295:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/TestLaunchDelegate.java
+1296:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ShortType.java
+1297:org.eclipse.jdt.debug.ui/Snippet Support/org/eclipse/jdt/internal/debug/ui/snippeteditor/ScrapbookMain1.java
+1298:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/ClasspathGroup.java
+1299:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/IncompatibleThreadStateException.java
+1300:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/performance/PerfContextualLaunchMenu.java
+1301:org.eclipse.jdt.debug.tests/testprograms/PrintConcatenation.java
+1302:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ObjectCollectedException.java
+1303:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/snippeteditor/ShowInPackageViewAction.java
+1304:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/AbstractJavaBreakpointEditor.java
+1305:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/environments/IAccessRuleParticipant.java
+1306:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaStackTraceConsolePage.java
+1307:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/XorAssignmentOperator.java
+1308:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/ITimeoutListener.java
+1309:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaStackFrame.java
+1310:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/DoubleAssignmentOperatorsTests.java
+1311:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/VMDefinitionsContainer.java
+1312:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/MonitorContendedEnteredRequestImpl.java
+1313:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaExceptionBreakpoint.java
+1314:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/UnsignedRightShiftOperator.java
+1315:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/AppletParametersTab.java
+1316:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ToggleBooleanPreferenceAction.java
+1317:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/SelectSystemLibraryQuickFix.java
+1318:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ShowSystemThreadsAction.java
+1319:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/OpenVariableDeclaredTypeAction.java
+1320:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/BundleDescription.java
+1321:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/InstructionPointerTests.java
+1322:org.eclipse.jdt.launching.macosx/macosx/org/eclipse/jdt/internal/launching/macosx/MacOSXVMInstall.java
+1323:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/RemoveAction.java
+1324:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpReplyPacket.java
+1325:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/DebugTypeSelectionDialog.java
+1326:org.eclipse.jdt.launching/support/org/eclipse/jdt/internal/launching/support/LegacySystemProperties.java
+1327:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushArrayType.java
+1328:org.eclipse.jdt.debug.tests/java7/Literals17.java
+1329:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/spy/UnableToParseDataException.java
+1330:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIType.java
+1331:org.eclipse.jdt.debug.tests/testprograms/StepFilterOne.java
+1332:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/ArrayInstruction.java
+1333:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/MethodBreakpointEditor.java
+1334:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ShowNullArrayEntriesAction.java
+1335:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaMethodEntryBreakpoint.java
+1336:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/performance/PerfConditionalBreakpointsTests.java
+1337:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/MonitorContendedEnterRequest.java
+1338:org.eclipse.jdt.debug.tests/testprograms/ThrowsException2.java
+1339:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/DoubleValueImpl.java
+1340:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_417.java
+1341:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JavaProjectSourceContainerTypeDelegate.java
+1342:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/RestoreDefaultEntriesAction.java
+1343:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ControlAccessibleListener.java
+1344:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/DebugElementEventWaiter.java
+1345:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/Locatable.java
+1346:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/ExceptionEvent.java
+1347:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/JDIPermission.java
+1348:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/TestMessageConsoleActionDelegate.java
+1349:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/VMOutOfMemoryException.java
+1350:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/MonitorWaitRequest.java
+1351:org.eclipse.jdt.debug.tests/testresources/JarRefProject/src/a/RunJar.java
+1352:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/CharValueImpl.java
+1353:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/WatchpointRequest.java
+1354:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/HeapWalkingManager.java
+1355:org.eclipse.jdt.debug.tests/testprograms/bug329294.java
+1356:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/SharedJavaMainTab.java
+1357:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/MethodEntryRequestTest.java
+1358:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/RuntimeClasspathEntry.java
+1359:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/performance/PerfDebugBaselineTest.java
+1360:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/DoubleValue.java
+1361:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/refactoring/MoveNonPublicTypeUnitTests.java
+1362:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/MonitorContendedEnteredEventImpl.java
+1363:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/EventReader.java
+1364:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/JDIMessages.java
+1365:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIArrayValue.java
+1366:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIThisVariable.java
+1367:org.eclipse.jdt.debug.tests/testprograms/VariableDetails.java
+1368:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIClassObjectValue.java
+1369:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/WatchpointChange.java
+1370:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/EventIterator.java
+1371:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/classpath/ClasspathEntryAdapterFactory.java
+1372:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/EmptyClasspathProvider.java
+1373:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/MethodBreakpointTests.java
+1374:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIReferenceType.java
+1375:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/IOConsoleMultipleStreamActionDelegate.java
+1376:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/ModificationWatchpointEvent.java
+1377:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/ClasspathContainerSourceContainerBrowser.java
+1378:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaClassPrepareBreakpoint.java
+1379:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/JavaThreadContentProvider.java
+1380:org.eclipse.jdt.debug/eval/org/eclipse/jdt/debug/eval/IEvaluationResult.java
+1381:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaStackTraceConsole.java
+1382:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/BuildJREDescriptor.java
+1383:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/BreakpointToggleAction.java
+1384:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/ModificationWatchpointRequest.java
+1385:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/ClassObjectReferenceImpl.java
+1386:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/SpecificDebugElementEventWaiter.java
+1387:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/OwnedMonitorContentProvider.java
+1388:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/JavaMonitorThread.java
+1389:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/Field.java
+1390:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaWatchExpressionDelegate.java
+1391:org.eclipse.jdt.debug.tests/testprograms/StepFilterTwo.java
+1392:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/sourcelookup/SourceLookupTests.java
+1393:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/LaunchingMessages.java
+1394:org.eclipse.jdt.debug/eval/org/eclipse/jdt/debug/eval/IClassFileEvaluationEngine.java
+1395:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ClassLoaderReferenceTest.java
+1396:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIModificationVariable.java
+1397:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/JREsEnvironmentComparator.java
+1398:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/SecondaryAccessRuleParticipant.java
+1399:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/EqualEqualOperator.java
+1400:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/EEVMType.java
+1401:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/contentassist/JavaDebugContentAssistProcessor.java
+1402:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/display/JavaInspectExpression.java
+1403:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/StandardSourcePathProvider.java
+1404:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/MonitorContendedEnterEvent.java
+1405:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/ThreadFilterBreakpointsTests.java
+1406:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaStackFrameContentProvider.java
+1407:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/AbstractJDITest.java
+1408:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/DeleteBreakpointChange.java
+1409:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/VMMismatchException.java
+1410:org.eclipse.jdt.debug/eval/org/eclipse/jdt/debug/eval/ICompiledExpression.java
+1411:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpFieldID.java
+1412:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/CompositeId.java
+1413:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HcrClass4.java
+1414:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/contentassist/CurrentValueContext.java
+1415:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/IntegerValueTest.java
+1416:org.eclipse.jdt.debug.tests/testprograms/LaunchHistoryTest.java
+1417:org.eclipse.jdt.launching.ui.macosx/src/org/eclipse/jdt/internal/ui/macbundler/BundleWizardBasePage.java
+1418:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/SocketTransportService.java
+1419:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/LocatableTest.java
+1420:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/JavaTestPlugin.java
+1421:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/DefineSystemLibraryQuickFix.java
+1422:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDILocalVariable.java
+1423:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/sourcelookup/SourceElementLabelProviderAdapter.java
+1424:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/ThreadGroupReferenceTest.java
+1425:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/SimpleInstruction.java
+1426:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/ContributedTestTab2.java
+1427:org.eclipse.jdt.debug.tests/testprograms/TerminateAll_01.java
+1428:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/GreaterEqualOperator.java
+1429:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/TestLaunchDelegate2.java
+1430:org.eclipse.jdt.debug.tests/testprograms/ArrayDetailTestsDef.java
+1431:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/StepEvent.java
+1432:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/logicalstructures/JavaLogicalStructure.java
+1433:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/VMDeathEvent.java
+1434:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/StepIntoSelectionUtils.java
+1435:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/IJDIPreferencesConstants.java
+1436:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/breakpoints/SuspendVMBreakpointsTests.java
+1437:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/AppletArgumentsTab.java
+1438:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaConsoleTracker.java
+1439:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpMethodID.java
+1440:org.eclipse.jdt.debug.tests/test plugin/org/eclipse/jdt/debug/testplugin/launching/TestLaunchShortcut.java
+1441:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/monitors/MonitorsAdapterFactory.java
+1442:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/HitCountLooper.java
+1443:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_724.java
+1444:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/MainClass.java
+1445:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/JavaStepFilterPreferencePage.java
+1446:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/UnaryOperator.java
+1447:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/hcr/VirtualMachine.java
+1448:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/connect/TransportTimeoutException.java
+1449:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/LessEqualOperator.java
+1450:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/LaunchTests.java
+1451:org.eclipse.jdt.debug.tests/testprograms/TestIO.java
+1452:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/event/VMStartEventImpl.java
+1453:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PrefixPlusPlusOperator.java
+1454:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/DoubleOperatorsTests.java
+1455:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/HeapWalkingTests.java
+1456:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/LocationImpl.java
+1457:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/launching/LaunchShortcutTests.java
+1458:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/HotCodeReplaceErrorDialog.java
+1459:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/VoidValueImpl.java
+1460:org.eclipse.jdt.debug/model/org/eclipse/jdt/debug/core/IJavaWatchpoint.java
+1461:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IJavaLaunchConfigurationConstants.java
+1462:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointRenameParticipant.java
+1463:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/StandardVMRunner.java
+1464:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/sourcelookup/containers/JavaSourcePathComputer.java
+1465:org.eclipse.jdt.debug.tests/testprograms/EvaluationTests.java
+1466:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/Dup.java
+1467:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushBoolean.java
+1468:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/core/RuntimeClasspathEntryTests.java
+1469:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/TypeNameResolver.java
+1470:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/connect/SocketConnection.java
+1471:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/request/ExceptionRequest.java
+1472:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaExceptionConsoleTracker.java
+1473:org.eclipse.jdt.launching/launching/org/eclipse/jdt/launching/IRuntimeClasspathEntry2.java
+1474:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/ClassObjectReference.java
+1475:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/JDIDebugMessages.java
+1476:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClazz10.java
+1477:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/LocalVarAssignmentTests.java
+1478:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/LocalJavaApplicationTabGroup.java
+1479:org.eclipse.jdt.debug.tests/testprograms/StepResult1.java
+1480:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/propertypages/InstanceFilterEditor.java
+1481:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/JDITestCase.java
+1482:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/console/JavaStackTraceHyperlink.java
+1483:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/InvalidLineNumberException.java
+1484:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaWatchpoint.java
+1485:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/actions/ActionMessages.java
+1486:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/OrAssignmentOperator.java
+1487:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JavaAppletLaunchConfigurationDelegate.java
+1488:org.eclipse.jdt.debug.tests/testprograms/MethodLoop.java
+1489:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/threadgroups/TargetAdapterFactory.java
+1490:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/RuntimeClasspathEntryResolver.java
+1491:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIReferenceListVariable.java
+1492:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/MinusAssignmentOperator.java
+1493:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_214.java
+1494:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/FilterLabelProvider.java
+1495:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/variables/JavaExpressionContentProvider.java
+1496:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/core/refactoring/BreakpointRenameProjectParticipant.java
+1497:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/environments/EnvironmentMessages.java
+1498:org.eclipse.jdt.debug.tests/console tests/org/eclipse/jdt/debug/tests/console/TestShowConsoleActionDelegate.java
+1499:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/Watchpoint.java
+1500:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_714.java
+1501:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/jdwp/JdwpInterfaceID.java
+1502:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIReferenceListValue.java
+1503:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TestsNestedTypes2.java
+1504:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/TestClass3.java
+1505:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/LocalVarValueTests.java
+1506:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/LongAssignmentOperatorsTests.java
+1507:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/JREMessages.java
+1508:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaLaunchTab.java
+1509:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/debug/ui/launchConfigurations/JavaLaunchShortcut.java
+1510:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/InvalidCodeIndexException.java
+1511:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/RefClass3.java
+1512:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/PushFloat.java
+1513:org.eclipse.jdt.debug/jdi interfaces/com/sun/jdi/event/ClassPrepareEvent.java
+1514:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/engine/BinaryBasedSourceGenerator.java
+1515:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/JREsLabelProvider.java
+1516:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/JavaMigrationDelegate.java
+1517:org.eclipse.jdt.debug/jdi/org/eclipse/jdi/internal/request/BreakpointRequestImpl.java
+1518:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/model/JDIArrayEntryVariable.java
+1519:org.eclipse.jdt.debug.jdi.tests/tests/org/eclipse/debug/jdi/tests/program/Printable.java
+1520:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/RuntimeSignature.java
+1521:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_179.java
+1522:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/variables/DetailFormatterTests.java
+1523:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/breakpoints/ExceptionInspector.java
+1524:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/launcher/SourceElementLabelProvider.java
+1525:org.eclipse.jdt.debug.ui/ui/org/eclipse/jdt/internal/debug/ui/jres/VMDetailsDialog.java
+1526:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/CompoundInstruction.java
+1527:org.eclipse.jdt.debug/eval/org/eclipse/jdt/internal/debug/eval/ast/instructions/GreaterOperator.java
+1528:org.eclipse.jdt.debug/model/org/eclipse/jdt/internal/debug/core/breakpoints/JavaMethodEntryBreakpoint.java
+1529:org.eclipse.jdt.debug.tests/testprograms/org/eclipse/debug/tests/targets/InfiniteLoop.java
+1530:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/TypeHierarchy_68_1.java
+1531:org.eclipse.jdt.debug.tests/tests/org/eclipse/jdt/debug/tests/eval/NestedTypeFieldValue_626.java
+1532:org.eclipse.jdt.launching/launching/org/eclipse/jdt/internal/launching/StandardVMType.java
