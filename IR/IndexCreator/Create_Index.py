@@ -7,10 +7,19 @@ es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 mapping = {
     "mappings": {
         "properties": {
-            "title": {
+            "bug_id": {
+                "type": "keyword"
+            },
+            "bug_title": {
                 "type": "text"
             },
-            "category": {
+            "bug_description": {
+                "type": "text"
+            },
+            "repo": {
+                "type": "keyword"
+            },
+            "ground_truths": {
                 "type": "keyword"
             }
         }
@@ -18,7 +27,7 @@ mapping = {
 }
 
 # Create the index
-index_name = "my_index"
+index_name = "query_reform"
 es.indices.create(index=index_name, body=mapping)
 
 print(f"Index '{index_name}' with mapping has been created.")
