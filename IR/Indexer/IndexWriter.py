@@ -1,9 +1,11 @@
 from elasticsearch import Elasticsearch
 
-class ElasticsearchIndexer:
-    def __init__(self, host='localhost', port=9200):
-        self.es = Elasticsearch([{'host': host, 'port': port}])
-        self.index_name = "query_reform"
+class IndexWriter:
+    def __init__(self, host='localhost', port=9200, index_name="query_reform"):
+        self.es = Elasticsearch('http://' + host + ':' + str(port),
+                           # http_auth=("username", "password"),
+                           verify_certs=False)
+        self.index_name = index_name
 
     def index_data(self, bug_id, bug_title, bug_description, repo, ground_truths):
         document = {

@@ -3,7 +3,9 @@ import ast
 
 class ElasticsearchSearcher:
     def __init__(self, host='localhost', port=9200, index_name="query_reform"):
-        self.es = Elasticsearch([{'host': host, 'port': port}])
+        self.es = Elasticsearch('http://' + host + ':' + str(port),
+                                # http_auth=("username", "password"),
+                                verify_certs=False)
         self.index_name = index_name
 
     def search(self, query, top_K_results=10):
@@ -19,7 +21,10 @@ class ElasticsearchSearcher:
         }
 
         search_results = self.es.search(index=self.index_name, body=search_query)
-        return search_results["hits"]["hits"]
+
+        ground_truths = self.process_search_results(search_results)
+
+        return ground_truths
 
     def process_search_results(self, search_results):
         for hit in search_results:
