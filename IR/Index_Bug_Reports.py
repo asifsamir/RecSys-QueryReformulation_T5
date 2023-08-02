@@ -14,7 +14,7 @@ files = os.listdir(key_files)
 # indexing will be each corpus basis
 
 # iterate over the list of files
-for file in tqdm(files):
+for file in tqdm(files, desc="Repository Progress:", position=0, leave=False):
     #replace .ckeys from the end of the file
     repo = file.replace('.ckeys', '')
     key_val_dict = {}
@@ -33,7 +33,7 @@ for file in tqdm(files):
     repo_files = os.listdir(os.path.join(corpus_dir, repo))
 
     # iterate over the list of files
-    for repo_file in tqdm(repo_files, dynamic_ncols=True):
+    for repo_file in tqdm(repo_files, desc="File Progress:", leave=False, position=1):
         file_id = repo_file.replace('.java', '')
         # get the file name from the mapping dictionary
         original_file_name_uri = key_val_dict[file_id]
