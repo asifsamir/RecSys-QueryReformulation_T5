@@ -1,7 +1,7 @@
 from elasticsearch import Elasticsearch
 import ast
 
-class ElasticsearchSearcher:
+class Index_Searcher:
     def __init__(self, host='localhost', port=9200, index_name="bug_localization"):
         self.es = Elasticsearch('http://' + host + ':' + str(port),
                                 # http_auth=("username", "password"),
@@ -27,9 +27,6 @@ class ElasticsearchSearcher:
         return ground_truths
 
     def compiled_search_results(self, search_results):
-        for hit in search_results:
-            print(f"Document ID: {hit['_id']}, Score: {hit['_score']}")
-            print(hit["_source"])  # This will print the document's content
 
         suggested_all_source_files = []
 
