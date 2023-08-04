@@ -1,0 +1,21 @@
+Total Dataset Size: 2320
+count_effective: 8967 - count_each_row_effective: 1738
+
+Total Dataset Size: 2320
+count_effective: 8967 - count_each_row_effective: 1738
+
+Data with effective queries: 8967
+Data with not effective queries: 582
+
+Percentage of effective queries: 3.8650862068965517
+Percentage of effective queries in each row: 0.7491379310344828
+Percentage of not effective queries in each row: 0.2508620689655172
+Total Dataset Size: 2320
+count_effective: 8967 - count_each_row_effective: 1738
+
+Data with effective queries: 8967
+Data with not effective queries: 582
+
+Mean effective query per data point: 3.8650862068965517
+Percentage of effective queries in each row: 0.7491379310344828
+Percentage of not effective queries in each row: 0.2508620689655172
