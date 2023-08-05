@@ -110,7 +110,7 @@ class KeyphraseGenerationTrainer:
             data_collator=data_collator,
             tokenizer=self.tokenizer,
             compute_metrics=self.compute_metrics,
-            callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
+            callbacks=[EarlyStoppingCallback(early_stopping_patience=2)]
         )
 
         train_results = trainer.train()
@@ -138,8 +138,11 @@ class KeyphraseGenerationTrainer:
 
         
 
-    def compute_metrics(self, eval_pred):
+    def compute_metrics(self, eval_pred, encode_pred=False):
         predictions, labels = eval_pred
+        if encode_pred:
+            predictions = np.where(predictions != -100, predictions, self.tokenizer.pad_token_id)
+
         decoded_preds = self.tokenizer.batch_decode(predictions, skip_special_tokens=True)
         labels = np.where(labels != -100, labels, self.tokenizer.pad_token_id)
         decoded_labels = self.tokenizer.batch_decode(labels, skip_special_tokens=True)
@@ -261,10 +264,14 @@ if __name__ == "__main__":
     # save test_df to json
     test_df.to_json('../Data/test_data.json', orient='records', lines=True)
 
+    ####************ Train the model ************####
+    #### Set the batch size and number of epochs ####
+    batch_size = 8
+    epochs_train = 50
 
     # Train the model
     trainer_class = KeyphraseGenerationTrainer(model_checkpoint="ml6team/keyphrase-generation-t5-small-inspec", max_input_length=1024, max_target_length=60)
-    trainer , train_results = trainer_class.train(train_df, valid_df, batch_size=8, epochs_train=1, save=True)
+    trainer , train_results = trainer_class.train(train_df, valid_df, batch_size=batch_size, epochs_train=epochs_train, save=True)
 
 
     # Evaluate with test data and get predictions
@@ -274,7 +281,7 @@ if __name__ == "__main__":
         trainer=trainer,
         tokenized_test_data=test_df,
         max_length=50,
-        num_beams=15,
+        num_beams=5,
         early_stopping=True
     )
     print(predictions[:5])  # Print the first 5 predictions
