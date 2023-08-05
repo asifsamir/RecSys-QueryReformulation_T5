@@ -82,6 +82,7 @@ class KeyphraseGenerationTrainer:
             # learning_rate=2e-5,
             learning_rate=5e-5,
             evaluation_strategy="epoch",
+            save_strategy="epoch",
             per_device_train_batch_size=batch_size,
             per_device_eval_batch_size=batch_size,
             weight_decay=0.01,
@@ -109,7 +110,6 @@ class KeyphraseGenerationTrainer:
             data_collator=data_collator,
             tokenizer=self.tokenizer,
             compute_metrics=self.compute_metrics,
-            early_stopping_patience=3,
             callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
         )
 
@@ -117,6 +117,7 @@ class KeyphraseGenerationTrainer:
 
         ## LOG HISTORY
         trainer_log_history = pd.DataFrame(trainer.state.log_history)
+        print(trainer_log_history.head())
         # save the log history. log history contains the training loss and validation loss. file name should contain the model name and the date and time
         current_date_time = datetime.now().strftime("%Y%m%d_%H%M")
         log_history_file_name = f"../Models_Fine_Tuned/Log/{self.model_checkpoint.split('/')[-1]}-{current_date_time}-log_history.csv"
@@ -195,6 +196,8 @@ class KeyphraseGenerationTrainer:
             test_dataset=tokenized_test_data,  # Rename tokenized_test_data to test_dataset
             max_length=max_length,
             num_beams=num_beams,
+            top_k=50,
+            top_p=0.9,
             early_stopping=early_stopping
         )
 
@@ -245,8 +248,6 @@ if __name__ == "__main__":
     # Prepare data: creating a dataframe with each row containing a query, bug_description, bug_title, bug_id, repo from the original data
     dataset_df = KeyphraseGenerationTrainer.prepare_data(dataset_df)
 
-    print(dataset_df.head())
-    print(dataset_df.shape)
 
     # Split data into train, test, validation
     train_df, test_valid_df = train_test_split(dataset_df, test_size=0.25, random_state=42, shuffle=True)
@@ -263,7 +264,7 @@ if __name__ == "__main__":
 
     # Train the model
     trainer_class = KeyphraseGenerationTrainer(model_checkpoint="ml6team/keyphrase-generation-t5-small-inspec", max_input_length=1024, max_target_length=60)
-    trainer , train_results = trainer_class.train(train_df, valid_df, batch_size=8, epochs_train=10, save=True)
+    trainer , train_results = trainer_class.train(train_df, valid_df, batch_size=8, epochs_train=1, save=True)
 
 
     # Evaluate with test data and get predictions
@@ -273,7 +274,7 @@ if __name__ == "__main__":
         trainer=trainer,
         tokenized_test_data=test_df,
         max_length=50,
-        num_beams=3,
+        num_beams=15,
         early_stopping=True
     )
     print(predictions[:5])  # Print the first 5 predictions
