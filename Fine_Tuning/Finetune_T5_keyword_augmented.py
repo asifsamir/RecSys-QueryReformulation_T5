@@ -109,7 +109,7 @@ class KeyphraseGenerationTrainer:
 
         # Save the trained model and configuration
         if save:
-            current_date_time = datetime.datetime.now().strftime("%Y%m%d_%H%M")
+            current_date_time = datetime.now().strftime("%Y%m%d_%H%M")
             # output_directory = f"../Models_Fine_Tuned/{self.model_checkpoint.split('/')[-1]}-T5_keyphrase-3ep"
             # use date and time and epochs to name the output directory
             output_directory = f"../Models_Fine_Tuned/{self.model_checkpoint.split('/')[-1]}-{current_date_time}-{epochs_train}ep"
