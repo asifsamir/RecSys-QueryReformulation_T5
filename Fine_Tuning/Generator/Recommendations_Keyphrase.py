@@ -17,10 +17,17 @@ class Recommmender():
 
 
     def get_recommendations(self, bug_description, num_of_recommendations=1):
-        generated_keyphrases = self.generator(bug_description,
-                                              top_p=0.90,
-                                              num_return_sequences=1)
-        return generated_keyphrases
+        recommendations = self.generator(bug_description,
+                                         top_p=0.95,
+                                         num_return_sequences=5,
+                                         max_length=50,
+                                         # num_beams=15,
+                                         # no_repeat_ngram_size=2,
+                                         # temperature=0.6,
+                                         do_sample=True,
+                                         top_k=50
+                                         )
+        return recommendations
 
 
 if __name__ == '__main__':
