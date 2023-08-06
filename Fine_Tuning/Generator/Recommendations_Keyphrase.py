@@ -16,10 +16,10 @@ class Recommmender():
         self.generator = KeyphraseGenerationPipeline(model=self.model_path, model_name=self.model_name)
 
 
-    def get_recommendations(self, bug_description, num_of_recommendations=1):
+    def get_recommendations(self, bug_description, num_of_recommendations=5):
         recommendations = self.generator(bug_description,
                                          top_p=0.95,
-                                         num_return_sequences=5,
+                                         num_return_sequences=num_of_recommendations,
                                          max_length=50,
                                          # num_beams=15,
                                          # no_repeat_ngram_size=2,
