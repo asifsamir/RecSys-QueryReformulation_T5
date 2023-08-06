@@ -5,7 +5,7 @@ from Fine_Tuning.Generator.KeyphraseGenerationPipeline import KeyphraseGeneratio
 
 class Recommmender():
     model_name = "ml6team/keyphrase-generation-t5-small-inspec"
-    model_path = '../../Models_Fine_Tuned/keyphrase-generation-t5-small-inspec-20230805_1319-4ep'
+    model_path = '../../Models_Fine_Tuned/keyphrase-generation-t5-small-inspec-20230806_0305-50ep'
     def __init__(self, model_name=None, model_path=None):
 
         if model_name is not None:
@@ -32,8 +32,8 @@ class Recommmender():
 
 if __name__ == '__main__':
     # Load pipeline
-    model_name = "ml6team/keyphrase-generation-t5-small-inspec"
-    model_path = '../../Models_Fine_Tuned/keyphrase-generation-t5-small-inspec-20230805_1319-4ep'
+    # model_name = "ml6team/keyphrase-generation-t5-small-inspec"
+    # model_path = '../../Models_Fine_Tuned/keyphrase-generation-t5-small-inspec-20230805_1319-4ep'
 
     recommender = Recommmender()
 
@@ -61,6 +61,6 @@ if __name__ == '__main__':
     print(bug_description)
 
 
-    generated_keyphrases = recommender.get_recommendations(bug_description, num_of_recommendations=1)
+    generated_keyphrases = recommender.get_recommendations(bug_description, num_of_recommendations=5)
 
     print('Generated keyphrases:', generated_keyphrases)
