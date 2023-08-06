@@ -270,7 +270,7 @@ if __name__ == "__main__":
     epochs_train = 50
 
     # Train the model
-    trainer_class = KeyphraseGenerationTrainer(model_checkpoint="ml6team/keyphrase-generation-t5-small-inspec", max_input_length=1024, max_target_length=60)
+    trainer_class = KeyphraseGenerationTrainer(model_checkpoint="ml6team/keyphrase-generation-t5-small-inspec", max_input_length=1024, max_target_length=70)
     trainer , train_results = trainer_class.train(train_df, valid_df, batch_size=batch_size, epochs_train=epochs_train, save=True)
 
 
