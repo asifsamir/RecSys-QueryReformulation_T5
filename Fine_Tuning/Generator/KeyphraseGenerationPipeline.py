@@ -42,10 +42,10 @@ if __name__ == '__main__':
     df = pd.DataFrame.from_dict(data)
 
     print('Suggested keyphrases:')
-    print(df['reformed_query'][0])
+    print(df['reformed_query'][1])
 
     print('\nDescription:')
-    bug_description = df['bug_description'][0]
+    bug_description = df['bug_description'][1]
     print(bug_description)
 
 
@@ -53,14 +53,14 @@ if __name__ == '__main__':
 
 
     generated_keyphrases = generator(bug_description,
-                                     top_p=0.95,
+                                     # top_p=0.5,
                                      num_return_sequences=5,
                                      max_length=50,
-                                     # num_beams=15,
+                                     num_beams=15,
                                      # no_repeat_ngram_size=2,
-                                     # temperature=0.6,
+                                     # temperature=0.3,
                                      do_sample=True,
-                                     top_k=50
+                                     # top_k=40
                                      )
     # Print the generated keyphrases
     print('Generated keyphrases:')

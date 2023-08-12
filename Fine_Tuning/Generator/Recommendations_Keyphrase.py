@@ -55,12 +55,29 @@ if __name__ == '__main__':
     # # Example input description
     # bug_description = "This is a bug description. Please see if AsicMiner.java is causing problem. shows 'NO_file_index'. What to do?."
 
+
+    # copy the row at position of the dataframe in a dictionary as key value
+    dict_config_output = df.iloc[0].to_dict()
+
+    description = dict_config_output['bug_description']
+    title = dict_config_output['bug_title']
+    reformed_query = dict_config_output['reformed_query']
+
+
+
     # Generate keyphrases using the loaded model
     print('Description:')
-    bug_description = df['bug_description'][1]
+    bug_description =description
     print(bug_description)
+    print('\n')
 
+    print('Reformed Query:')
+    print(reformed_query)
+    print('\n')
 
+    print('Suggested keyphrases:')
     generated_keyphrases = recommender.get_recommendations(bug_description, num_of_recommendations=5)
+    for i, keyphrase in enumerate(generated_keyphrases):
+        print(f'Keyphrase {i+1}: {keyphrase}')
 
-    print('Generated keyphrases:', generated_keyphrases)
+    # print('Generated keyphrases:', generated_keyphrases)
